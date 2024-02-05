@@ -45,7 +45,10 @@ author-name: suprimregmi
 # URL for the Image of the Author
 author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
 # 60 Words About the Author
-author-about: I'm delving into Data Engineering, actively honing my skills in Power BI and data visualization. My focus is on understanding big data and analysis, guiding me on an enriching learning journey in this field.
+author-about: Detail-oriented and skilled Data Professional with experience in the development of data systems, pipelines, reporting,
+and data engineering. Adept at gathering data from various sources, executing transformations, and elevating data
+quality to ensure smooth integration with reporting and analytics systems. Skilled in SQL, Python (Data Frameworks
+and Libraries), Cloud Technologies, and the management of data pipelines (Apache Airflow).
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/suprimregmi
 
