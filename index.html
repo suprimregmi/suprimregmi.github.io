@@ -7,15 +7,39 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+
+    <style>
+      /* Custom styles for the title */
+      h1.title {
+          font-size: 2.5em; /* Adjust the font size as needed */
+          font-weight: bold;
+          color: #3498db; /* Set your preferred text color */
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+      }
+
+      .logo {
+            font-size: 2em; /* Adjust the font size as needed */
+            font-weight: bold;
+            color: #3498db; /* Set your preferred text color */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+            background: linear-gradient(45deg, #1374db, #e52e71); /* Add a colorful gradient background */
+            -webkit-background-clip: text; /* Clip the text to the background */
+            color: transparent; /* Make the text transparent */
+            display: inline-block; /* Prevent the gradient from covering the entire width */
+            padding: 5px 10px; /* Add padding for better visibility */
+            border-radius: 5px; /* Add rounded corners */
+        }
+  </style>
+
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Suprim Regmi</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="#Blogs">Blogs</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -31,7 +55,7 @@
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#Blogs" onclick="toggleMenu()">Blogs</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
@@ -42,14 +66,14 @@
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">John Doe</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <h1 class="title">Suprim Regmi</h1>
+        <p class="section__text__p2">Data Engineer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="location.href='./#contact'"
           >
-            Download CV
+            Hire Me !!
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
@@ -60,13 +84,13 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/'"
+            onclick="location.href='https://www.linkedin.com/in/suprimregmi'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/'"
+            onclick="location.href='https://github.com/suprimregmi'"
           />
         </div>
       </div>
@@ -91,7 +115,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
+              <p>3+ years <br />Data Engineering</p>
             </div>
             <div class="details-container">
               <img
@@ -100,17 +124,16 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              <p> Bachelor Degree In C.S. <br/><a href = "https://prime.edu.np/">Prime College</a></p>
+              <!-- <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p> -->
             </div>
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+              Detail-oriented and skilled Data Professional with experience in the development of data systems, pipelines, reporting,
+              and data engineering. Adept at gathering data from various sources, executing transformations, and elevating data
+              quality to ensure smooth integration with reporting and analytics systems. Skilled in SQL, Python (Data Frameworks
+              and Libraries), Cloud Technologies, and the management of data pipelines (Apache Airflow).
             </p>
           </div>
         </div>
@@ -128,7 +151,7 @@
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Data Stack </h2>
             <div class="article-container">
               <article>
                 <img
@@ -137,7 +160,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
+                  <h3>MySQL</h3>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -148,7 +171,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>CSS</h3>
+                  <h3>SQL_Server</h3>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -159,7 +182,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>SASS</h3>
+                  <h3>Python</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -170,7 +193,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>JavaScript</h3>
+                  <h3>NoSQL</h3>
                   <p>Basic</p>
                 </div>
               </article>
@@ -181,7 +204,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>TypeScript</h3>
+                  <h3>Datawarehousing</h3>
                   <p>Basic</p>
                 </div>
               </article>
@@ -192,14 +215,14 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
+                  <h3>Database_Design</h3>
+                  <p>Basic</p>
                 </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Other Tools & Technologies</h2>
             <div class="article-container">
               <article>
                 <img
@@ -208,7 +231,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>PostgreSQL</h3>
+                  <h3>Airflow</h3>
                   <p>Basic</p>
                 </div>
               </article>
@@ -219,8 +242,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
+                  <h3>Linux</h3>
+                  <p>Basics+</p>
                 </div>
               </article>
               <article>
@@ -230,8 +253,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
+                  <h3>Machine Learning</h3>
+                  <p>Basics+</p>
                 </div>
               </article>
               <article>
@@ -253,12 +276,12 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href='./#Blogs'"
       />
     </section>
-    <section id="projects">
+    <section id="Blogs">
       <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
+      <h1 class="title">Blogs</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
@@ -269,20 +292,20 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">Data Profiling</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://suprim-regmi.medium.com/what-and-how-of-data-profiling-1170ce58a532'"
               >
-                Github
+                Medium
               </button>
-              <button
+              <!-- <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
               >
                 Live Demo
-              </button>
+              </button> -->
             </div>
           </div>
           <div class="details-container color-container">
@@ -293,20 +316,20 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">Vim Editor</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://suprim-regmi.medium.com/getting-started-with-vim-for-beginners-490084abab00'"
               >
-                Github
+                Medium
               </button>
-              <button
+              <!-- <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
               >
                 Live Demo
-              </button>
+              </button> -->
             </div>
           </div>
           <div class="details-container color-container">
@@ -325,12 +348,12 @@
               >
                 Github
               </button>
-              <button
+              <!-- <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
               >
                 Live Demo
-              </button>
+              </button> -->
             </div>
           </div>
         </div>
@@ -352,7 +375,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="mailto:suprimreg@gmail.com">suprimreg@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -360,7 +383,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/suprimregmi">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -370,12 +393,12 @@
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#Blogs">Blogs</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <!-- <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p> -->
     </footer>
     <script src="script.js"></script>
   </body>
